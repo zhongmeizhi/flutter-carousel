@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'flutter_carousel',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -24,13 +24,14 @@ class MyHomePage extends StatelessWidget {
         ),
         body: Stack(
           children: <Widget>[
-            Carousel()
+            new Carousel()
           ],
         )
     );
   }
 }
 
+// Widget代码
 class Carousel extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => _Carousel();
@@ -38,6 +39,7 @@ class Carousel extends StatefulWidget {
 
 class _Carousel extends State<Carousel> with SingleTickerProviderStateMixin{
 
+  // mock数据
   // 需展现的轮播Widget列表
   List _carouselList = <Widget>[
     Container(

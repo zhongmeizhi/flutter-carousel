@@ -1,16 +1,13 @@
 # flutter_carousel
 
-A new Flutter application.
+> 一个Flutter无限轮播
 
-## Getting Started
+一共一个文件。
 
-This project is a starting point for a Flutter application.
+代码非常简单，已经封装完毕，内部有注释，使用时直接copy源码即可。
 
-A few resources to get you started if this is your first Flutter project:
+预览
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+![预览图](preview/GIF.gif)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
